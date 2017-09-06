@@ -1,5 +1,5 @@
 ﻿using CoreBlog.Constants;
-using CoreBlog.Interfaces;
+using CoreBlog.Contracts;
 using System;
 using System.Collections.Generic;
 
