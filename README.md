@@ -7,6 +7,7 @@ Blog Series allows for categorizing posts as a 'series'. A series can be posts o
 ## Types of Blog Content
 Core Blog aims to support the following types of posts...
 - Text Post (with full Markdown support)
-- Media Post (post with one of these... Image(s)/Audio/Video clip)
+- Media Post (post with one of these... Image(s)/Audio/Video clip)[FUTURE PLAN] 
 - Quote Post (containing a single quote or thought)
 - Embed Post (allowing for embedding a Tweet, Instagram or Facebook post)
+- Poll Post
