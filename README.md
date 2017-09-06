@@ -1,2 +1,12 @@
 # CoreBlogEngine
 Blog Engine built on .NET Core 
+
+## Blog Series
+Blog Series allows for categorizing posts as a 'series'. A series can be posts on 'life-events' whereas another series could deal with 'movie-reviews'. Blog Series aims at organising posts better.
+
+## Types of Blog Content
+Core Blog aims to support the following types of posts...
+- Text Post (with full Markdown support)
+- Media Post (post with one of these... Image(s)/Audio/Video clip)
+- Quote Post (containing a single quote or thought)
+- Embed Post (allowing for embedding a Tweet, Instagram or Facebook post)
