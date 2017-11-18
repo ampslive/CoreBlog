@@ -1,4 +1,5 @@
-# CoreBlogEngine
+
+# CoreBlog Engine
 Blog Engine built on .NET Core 
 
 ## Blog Series
@@ -11,3 +12,9 @@ Core Blog aims to support the following types of posts...
 - Quote Post (containing a single quote or thought)
 - Embed Post (allowing for embedding a Tweet, Instagram or Facebook post)
 - Poll Post
+
+## Database
+Core Blog aims to supoort the following types of databases...
+- JSON Files
+- MS SQL Server Database
+- XML Files
