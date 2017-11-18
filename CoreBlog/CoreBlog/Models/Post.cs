@@ -1,11 +1,11 @@
 ﻿using CoreBlog.Constants;
 using CoreBlog.Contracts;
+using CoreBlog.Utilities;
 using System;
-using System.Collections.Generic;
 
 namespace CoreBlog.Models
 {
-    public class Post
+    public class Post : IPersistenceBehavior<Post>
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -14,6 +14,24 @@ namespace CoreBlog.Models
         public DateTime DateModified { get; set; }
         //public List<> Author { get; set; }
         public PostStatus Status { get; set; }
+        public string Permalink { get; set; }
         public bool IsActive { get; set; }
+
+        private IPersistenceBehavior<Post> persistBehavior { get; set; }
+
+        public Post(IPersistenceBehavior<Post> pb)
+        {
+            this.persistBehavior = pb;
+        }
+
+        public void Add(Post obj)
+        {
+            persistBehavior.Add(obj);
+        }
+
+        public void Update(Post obj)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
